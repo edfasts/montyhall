@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MontyHall.Services/1.0.0": {
+        "dependencies": {
+          "MontyHall.Core": "1.0.0"
+        },
+        "runtime": {
+          "MontyHall.Services.dll": {}
+        }
+      },
+      "MontyHall.Core/1.0.0": {
+        "runtime": {
+          "MontyHall.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MontyHall.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MontyHall.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
